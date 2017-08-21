@@ -1,0 +1,84 @@
+body{
+	background-color: #fff6f1;
+	font-family: "Arial";
+}
+
+#principal{
+	width: 1000px;
+	border: 1px solid #000000;
+	margin: 20px auto;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	background-color:#454948
+}
+
+#cabecera{
+	height: 88px;
+	border: 1px solid #000000;
+	margin: 10px;
+	background-color: #1975B6;
+	color: #EFE6E6;
+    text-align: center;
+}
+#cabecera h1 a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: "Arial", black;
+}
+#menu{
+	background-color: #1975B6;
+	height: 58px;
+	border: 1px solid #000000;
+	margin: 10px 10px 10px 10px;
+
+}
+#menu ul li{
+	margin-left: 75px;
+	margin-right: 75px;
+	padding-bottom: 10px;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+}
+#menu ul li a{
+	font-size: 120%;
+	color: #fff;
+	text-align: center;
+}
+#tetris{
+	width: 900px;
+	height: 700px;
+	border: 2px solid #00FFC0;
+	margin-left: 50px;
+	margin-top: 10px;
+	background-color: #454948;
+	float: left;
+	text-align: center;
+}
+#tetris p{
+	margin: 10px;
+	text-decoration: underline;
+    text-decoration-color: #00FFC0;
+    color: #00FFC0;
+}
+#tetris img.ps{
+	width: 650px;
+	height: 500px;
+}
+.clear{
+	clear: both;
+}
+#ppie aside p{
+	margin: 15px;
+	margin-left: 50px;
+}
+#tetris input{
+	padding: 5px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+a{
+	text-decoration: none;
+	background: transparent;
+}

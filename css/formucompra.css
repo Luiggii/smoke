@@ -1,0 +1,85 @@
+body{
+	background-color: #fff6f1;
+	font-family: "Arial";
+}
+
+#principal{
+	width: 1000px;
+	border: 1px solid #000000;
+	margin: 20px auto;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	background-color:#454948
+}
+
+#cabecera{
+	height: 88px;
+	border: 1px solid #000000;
+	margin: 10px;
+	background-color: #1975B6;
+	color: #EFE6E6;
+    text-align: center;
+}
+#cabecera h1 a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: "Arial", black;
+}
+#menu{
+	background-color: #1975B6;
+	height: 58px;
+	border: 1px solid #000000;
+	margin: 10px 10px 10px 10px;
+
+}
+#menu ul li{
+	margin-left: 75px;
+	margin-right: 75px;
+	padding-bottom: 10px;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+}
+#menu ul li a{
+	font-size: 120%;
+	color: #fff;
+	text-align: center;
+}
+#formulario form{
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.form{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#formulario form{
+	text-decoration: underline;
+    color: #00FFC0;
+    border: 2px solid #00FFC0;
+    width: 900px;
+    margin-left: 30px;
+}
+.hue{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#pay{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+ol li a{
+	color: #00FFC0;
+}
+.clear{
+	clear: both;
+}
+#ppie aside p{
+	margin: 15px;
+	margin-left: 50px;
+}
+a{
+	text-decoration: none;
+	background: transparent;
+}

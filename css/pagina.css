@@ -1,0 +1,270 @@
+body{
+	font-family: "Arial";
+	background-color: #737373;
+}
+h1{
+	position: absolute;
+	margin: 0px 0px 0px 50px;
+}
+
+ol li a{
+	color: #00FFC0;
+}
+.menu{
+
+}
+#columnader ul li{
+	text-decoration: none;
+	text-align: right;
+	border: 1 solid black;
+	margin-top: 50px;
+	font-size: 20px;
+
+}
+#centro1 p a{
+	color:#ff9933;
+	float: right;
+}
+#principal{
+	
+}
+#centro1{
+	text-align: left;
+	padding: 5px;
+}
+#centro1 ul a{
+	text-decoration: none;
+	margin: 20px;
+	padding-top: 37px;
+	color: #e6e6e6;
+}
+#centro1 ul{
+	font-size: 24px;
+	padding: 10px;
+	color: #e6e6e6;
+	margin-left: 1px;
+}
+#centro1 ul a:hover{
+	border: 2px solid #666666;
+	background-color: #666666; 
+	padding-bottom: 29px;
+	padding-left: 18px;
+	padding-right: 18px;
+	text-decoration: none;
+	color:black;
+}
+
+#centro{
+	text-align: center;
+	padding: 5px;
+}
+#centro ul a{
+	text-decoration: none;
+	margin: 20px;
+	padding-top: 37px;
+	color: #e6e6e6;
+}
+#centro ul{
+	font-size: 24px;
+	padding: 10px;
+	color: #e6e6e6;
+	margin-left: 100px
+}
+#centro ul a:hover{
+	border: 2px solid #666666;
+	background-color: #666666; 
+	padding-bottom: 29px;
+	padding-left: 18px;
+	padding-right: 18px;
+	text-decoration: none;
+	color:black;
+}
+
+#iniciosesion a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	padding: 30px;
+
+}
+#iniciosesion{
+	margin:0px 0px 20px 0px;
+	height: 100px;
+	font-weight: bold;
+	border: 0px solid #000000;
+	text-decoration: none;
+	background: #000000;
+
+}
+#iniciosesion p a{
+	color:#ff6600;
+	text-decoration: none;
+	margin-left:10px;
+	text-align: top;
+}
+#iniciosesion ul a:hover{
+	border: 2px solid #666666;
+	background-color: #666666; 
+	padding-bottom: 29px;
+	padding-left: 18px;
+	padding-right: 18px;
+	text-decoration: none;
+	color:black;
+}
+#iniciosesion ul{
+	font-size: 24px;
+	padding: 10px;
+	color: #e6e6e6;
+	margin-left: 300px
+}
+#iniciosesion ul a{
+	text-decoration: none;
+	margin: 20px;
+	padding-top: 37px;
+	color: #e6e6e6;
+}
+#formu{
+	float: right;
+	color:#ff9933;;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+.nidea{
+	padding-left: 130px;
+	font-size: 20px;
+
+}
+#columnaizq{
+	background-color: #454948;
+	width: 1230px;
+	border: 2px solid #454948;
+	margin-left: 50px;
+	float: left;
+}
+#columnaizq ul li a{
+	color: #e6e6e6;
+}
+#columnaizq ul li{
+	color: #e6e6e6;
+}
+#columnader > div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.img{	
+	padding: 20px;
+	margin: 50px 50px 50px 100px;
+	width: 450px;
+	height: 350px;
+}
+.border{
+	position: absolute;
+	width: 669px;
+	height: 460px;
+	margin: 50px 50px 50px 6px;
+}
+#columnader{
+	position: relative;
+	width: 1200px;
+	height: 800px;
+	border: 2px solid #454948;
+	margin-left: 63px;
+	margin-top: 15px;
+	background-color: #454948;
+	float: left;
+}
+#columnader a{
+	margin: 10px;
+	text-decoration: underline;
+    color: #e6e6e6;
+}
+#columnader ol{
+	color: #000;
+}
+#columnader video{
+	margin: 70px 1px 1px 50px;
+	width: 340px;
+	height: 280px;
+}
+#columnader h1{
+	margin: 30px;
+	text-align: center;
+	text-decoration: none;
+    color: #e6e6e6;
+}
+#columnader p{
+	margin-left: 100px;
+	margin-top: 50px;
+	text-decoration: none;
+    color: #e6e6e6;
+    font-size: 18px;
+}
+#columnader h2{
+	margin-top: 50px;
+	margin-left: 85px;
+	color: #e6e6e6;
+}
+#columnader a{
+	position: none;
+	margin-top: 80px;
+	margin-left: 100px;
+	color: #e6e6e6;
+	margin-right: 90px;
+}
+.link{
+	font-size: 20px;
+	position: relative;
+}
+.preguntas{
+	margin-left: 100px;
+	color: white;
+	font-size: 20px;
+	font-style: bold;
+}
+
+.clear{
+	clear: both;
+}
+#ppie aside p{
+	margin: 15px;
+	margin-left: 80px;
+}
+.columnader1 ul li{
+	width: 900px;
+	margin-left: 50px;
+	float: left;
+	color: #00FFC0;
+}
+.nosirive{
+	
+}
+#regis{
+	margin-left: 40px;
+}
+#columnader form{
+	color: #e6e6e6;
+	margin: 80px;
+}
+#createUser{
+	margin-left: 15px;
+}
+#createName{
+	margin-left: 45px;
+}
+#createMail{
+	margin-left: 105px;
+}
+#createPass{
+	margin-left: 70px;
+}
+#main {
+	background-color: #454948;
+	border: 2px solid #454948;
+	margin-top: 150px;
+	margin-left: 50px;
+	width: 1228px;
+}
+#main1 {
+	margin: 20px; 
+}
