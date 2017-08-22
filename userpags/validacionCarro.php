@@ -5,12 +5,12 @@
 		$host = "localhost";
 		$pw = "";
 		$user = "root";
-		$con = mysql_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos.");
-		mysql_select_db($db, $con) or die ("No se puede conectar con la base de datos.");
+		$con = mysqli_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos.");
+		mysqli_select_db($con, $db) or die ("No se puede conectar con la base de datos.");
 		$consult = "SELECT * FROM micarrodecompras WHERE IdObjeto = $idObjeto and IdUsuario = $idUsuario";
-		$result = mysql_query($consult, $con) or die ("Error!");
-		$fila = mysql_fetch_array($result);
-		mysql_close($con);
+		$result = mysqli_query($con, $consult) or die ("Error!");
+		$fila = mysqli_fetch_array($result);
+		mysqli_close($con);
 		if ($fila['IdObjeto'] == $idObjeto) {
 			$v = true;
 		}

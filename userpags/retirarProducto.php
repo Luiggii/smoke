@@ -6,8 +6,8 @@
 	$host = "localhost";
 	$pw = "";
 	$user = "root";
-	$con = mysql_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos."); 
-	mysql_select_db($db, $con) or die ("No se puede conectar con la base de datos.");
+	$con = mysqli_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos."); 
+	mysqli_select_db($con, $db) or die ("No se puede conectar con la base de datos.");
 	switch ($pagina) {
 		case 'carro':
 			$sql = "DELETE FROM micarrodecompras WHERE Id = '$Id' and Objeto = '$objeto'";
@@ -19,8 +19,8 @@
 			header("indexUsuario.php");
 		break;
 	}
-	mysql_query($sql, $con) or die ("Hubo un error con la base de datos.");
-	mysql_close($con);
+	mysqli_query($con, $sql) or die ("Hubo un error con la base de datos.");
+	mysqli_close($con);
 	switch ($pagina) {
 		case 'carro':
 			header("location: micarritodeCompras.php");

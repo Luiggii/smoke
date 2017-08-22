@@ -25,7 +25,12 @@
 				<div class="preguntas"> - ¿Cuándo recibiré mi código/juego/software luego de realizar la compra?</div><p><br>Respectivamente, del producto que haya comprado, este se le enviará luego de haber confirmado el pago,</br>posteriormente si es fuera de Ecuador
 				deberá recibir su producto en 10 días, caso contrario en menos de <br>2 días dependientemente de su ciudad.</p>
 				<div class="preguntas"> - ¿Es el juego o software original?</div><p><br>Todos los productos que ofrecemos son 100% originales, nosotros compramos el producto y se los proporcionamos</br>a ustedes los clientes.</p>
+			
 			</div>
+			
+			
+			
+			
 			<div class="clear"></div>
 			<div id ="ppie">
 				<aside>		

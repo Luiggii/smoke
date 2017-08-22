@@ -38,9 +38,9 @@
 			<div id ="ppie">
 				<aside>		
 				 	<br>
-				 		<p>Proyecto Integrador 4to Nivel A.
+				 		<p>Ingeniería de Software II
 				 	<br>
-				 	Bailón Intriago, Cajas Calderón, Prado Luiggi, Barrezueta</p>
+				 	Bailón Cristhian, Prado Luiggi</p>
 				</aside>
 			</div>
 		</div>

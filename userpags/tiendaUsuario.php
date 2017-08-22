@@ -32,12 +32,12 @@
 						$host = "localhost";
 						$pw = "";
 						$user = "root";
-						$con = mysql_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos."); 
-						mysql_select_db($db, $con) or die ("No se puede conectar con la base de datos.");
+						$con = mysqli_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos."); 
+						mysqli_select_db($con, $db) or die ("No se puede conectar con la base de datos.");
 						$consult = "SELECT * FROM productos";
-						$result = mysql_query($consult, $con) or die ("Error!");
-						mysql_close($con);
-						while ($fila = mysql_fetch_array($result)) {
+						$result = mysqli_query($con, $consult) or die ("Error!");
+						mysqli_close($con);
+						while ($fila = mysqli_fetch_array($result)) {
 							$imagenProducto = $fila['Imagen'];
 							$idProducto = $fila['Id'];
 							$nombreProducto = $fila['Nombre'];
@@ -109,9 +109,9 @@
 			<div id ="ppie">
 				<aside>		
 				 	<br>
-				 		<p>Proyecto Integrador 4to Nivel A.
+				 		<p>Ingeniería de Software II
 				 	<br>
-				 	Bailón Intriago, Cajas Calderón, Prado Luiggi, Barrezueta</p>
+				 	Bailón Cristhian, Prado Luiggi</p>
 				</aside>
 			</div>
 		</div>

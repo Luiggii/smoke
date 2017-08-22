@@ -46,14 +46,14 @@
 						$host = "localhost";
 						$pw = "";
 						$user = "root";
-						$con = mysql_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos."); 
-						mysql_select_db($db, $con) or die ("No se puede conectar con la base de datos.");
+						$con = mysqli_connect($host, $user, $pw) or die ("No se puede conectar con la base de datos."); 
+						mysqli_select_db($con, $db) or die ("No se puede conectar con la base de datos.");
 						$consult = "SELECT * FROM micarrodecompras WHERE IdUsuario = $idUsuario";
-						$result = mysql_query($consult, $con) or die ("Error!");
+						$result = mysqli_query($con, $consult) or die ("Error!");
 						$subTotal = 0.0;
 						$total = 0.0;
 						$cantidad = 0;
-						while ($fila = mysql_fetch_array($result)) {
+						while ($fila = mysqli_fetch_array($result)) {
 							$IdUsuario = $fila['IdUsuario'];
 							$IdUnicoObjeto = $fila['Id'];
 							$objeto = $fila['Objeto'];
